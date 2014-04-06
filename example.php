@@ -7,12 +7,12 @@ $FindRetros = new FindRetros();
 
 if($FindRetros->hasClientVoted()) {
 
-	echo 'You have voted!';
+    echo 'You have voted!';
 
 }else{
 
-	// echo 'You have yet to vote!';
+    // echo 'You have yet to vote!';
 
-	$FindRetros->redirectClientToVote();
+    $FindRetros->redirectClientToVote();
 
 }
